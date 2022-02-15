@@ -3,4 +3,9 @@
 # Write 3 print statements inside the function.
 # Call the greet() function and run your code.
 
+def greet():
+  print("Hello")
+  print("It's me")
+  print("Adele")
 
+greet()
