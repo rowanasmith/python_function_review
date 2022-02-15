@@ -3,9 +3,15 @@
 # Write 3 print statements inside the function.
 # Call the greet() function and run your code.
 
-def greet():
-  print("Hello")
-  print("It's me")
-  print("Adele")
+# def greet():
+#   print("Hello")
+#   print("It's me")
+#   print("Adele")
 
-greet()
+# greet()
+
+def greet(name, location):
+  print(f"Hello {name}")
+  print(f"How is it in {location}?")
+
+greet("Jack Bauer", "God's Beautiful America")
